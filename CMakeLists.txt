@@ -6,6 +6,7 @@ include(CheckIncludeFile)
 include(CheckIncludeFileCXX)
 include(CheckFunctionExists)
 include(CMakePackageConfigHelpers)
+include(GNUInstallDirs)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set(CMAKE_BUILD_TYPE Release CACHE STRING "Type of build, options are: None Debug Release RelWithDebInfo MinSizeRel" FORCE)
